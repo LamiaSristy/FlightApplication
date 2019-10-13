@@ -1,0 +1,8 @@
+*** Settings ***
+Library           SeleniumLibrary
+Library           AutoItLibrary
+
+*** Test Cases ***
+OpenCalculator
+    Run    calc.exe
+    Win Wait Active    Calculator

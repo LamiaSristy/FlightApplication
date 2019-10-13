@@ -1,0 +1,13 @@
+*** Settings ***
+Library           Selenium Library
+
+*** Variables ***
+${username}       ${EMPTY}
+${password}       ${EMPTY}
+
+*** Keywords ***
+Log In To Flight Application
+    [Arguments]    ${udername}    ${password}
+    Input Text    name=email    ${username}
+    Input Password    name=passwd    ${password}
+    Click Element    name=SignIn
