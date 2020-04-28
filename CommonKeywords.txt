@@ -5,7 +5,8 @@ Library           DateTime
 *** Variables ***
 ${text1}          ${EMPTY}
 @{cities}
-${Response}       Toronto |Chicago| New York| London | Dhaka | Netrokona
+
+${Response}       Toronto |Chicago| New York| London | Dhaka | Netrokona | Bogura
 ${Response2}      Paris| Tokyo| Mumbai| Atlanta
 @{class}
 ${varifyClass}    Economy|Business|First
