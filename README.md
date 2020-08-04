@@ -2,7 +2,6 @@
 
 > This is a project to make quality assuarances of a Flight Application solution.
 
-<img src="images/nyt.png">
 ## Built With
 
 -Robot Framework
